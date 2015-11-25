@@ -11,7 +11,7 @@ with sqlite3.connect('blog.db') as connection:
                     INSERT INTO posts VALUES('Good', 'This is good');
                     INSERT INTO posts VALUES('Well', 'This is well');
                     INSERT INTO posts VALUES('Excellent', 'This is excellent');
-                    INSERT INTO posts VALUES('Good', 'This is okay');
+                    INSERT INTO posts VALUES('Ok', 'This is okay');
                     """)
 
     
